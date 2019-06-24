@@ -57,3 +57,4 @@ fi
 
 
 alias dockerkillall='docker kill $(docker ps -q)'
+source $HOME/.aliases
