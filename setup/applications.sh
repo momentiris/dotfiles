@@ -15,12 +15,11 @@ fi
 brew update && brew install `brew outdated`
 
 fancy_echo "Installing CLI tools..."
+xcode-select install
 brew install openssl
 brew install zsh
-brew install zsh-completions
 brew install z
-brew install watchman # needed for jest --watch
-brew install git
+brew install watchman
 brew install antigen
 
 fancy_echo "Setting up Node with NVM..."
