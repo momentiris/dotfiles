@@ -4,7 +4,6 @@ antigen use oh-my-zsh
 
 antigen bundle git
 antigen bundle command-not-found
-antigen bundle autojump
 antigen bundle npm
 antigen bundle lukechilds/zsh-nvm
 
