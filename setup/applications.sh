@@ -21,6 +21,7 @@ brew install zsh
 brew install z
 brew install watchman
 brew install antigen
+brew install tree
 
 fancy_echo "Setting up Node with NVM..."
 mkdir ~/.nvm
