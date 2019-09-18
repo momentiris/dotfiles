@@ -13,3 +13,7 @@ defaults write NSGlobalDomain KeyRepeat -int 0
 
 fancy_echo "Finder - Use list view in all Finder windows"
 defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
+
+fancy_echo "Keys - Use blazing fast key repetition"
+defaults write -g InitialKeyRepeat -int 10 # normal minimum is 15 (225 ms)
+defaults write -g KeyRepeat -int 1 # normal minimum is 2 (30 ms)
