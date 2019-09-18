@@ -1,0 +1,11 @@
+alias dockerkillall='docker kill $(docker ps -q)'
+alias ..='cd ..'
+alias ...='cd .. cd ..'
+alias k='kubectl'
+function killPort() { lsof -ti tcp:"$@" | xargs kill }
+alias gcm='git commit --message'
+alias gc='git commit'
+alias ga='git add'
+alias gs='git status'
+alias gpm='git pull origin master'
+alias gd='git diff'
