@@ -9,3 +9,5 @@ alias ga='git add'
 alias gs='git status'
 alias gpm='git pull origin master'
 alias gd='git diff'
+
+alias dcu='docker-compose up'
