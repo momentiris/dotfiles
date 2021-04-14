@@ -66,5 +66,9 @@
   {
     "key": "cmd+9",
     "command": "workbench.action.openEditorAtIndex9"
+  },
+  {
+    "key": "ctrl+shift+'",
+    "command": "workbench.action.navigateEditorGroups"
   }
 ]
