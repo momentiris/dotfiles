@@ -1,3 +1,4 @@
+zmodload zsh/zprof
 source $(brew --prefix)/share/antigen/antigen.zsh
 
 antigen use oh-my-zsh
@@ -5,7 +6,7 @@ antigen use oh-my-zsh
 antigen bundle git
 antigen bundle command-not-found
 antigen bundle npm
-antigen bundle lukechilds/zsh-nvm
+antigen bundle fnm
 
 # syntax
 antigen bundle zsh-users/zsh-syntax-highlighting
@@ -15,18 +16,6 @@ antigen theme robbyrussell
 #apply
 antigen apply
 
-
-# NVM 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-#Flutter
-export PATH="$PATH:`pwd`/flutter/bin"
-
-#Java
-export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
-
 ################################################################
 # React-Native
 ################################################################
@@ -34,6 +23,10 @@ export ANDROID_HOME=$HOME/Library/Android/sdk
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 export PATH=“$HOME/.fastlane/bin:./node_modules/.bin:$PATH”
+
+
+#FNM
+eval "$(fnm env)"
 
 function chpwd {
   set_fnm_version
@@ -65,9 +58,3 @@ fi
 
 
 source $HOME/.aliases
-
-# added by travis gem
-[ -f /Users/andreaslundqvist/.travis/travis.sh ] && source /Users/andreaslundqvist/.travis/travis.sh
-
-# fnm
-eval "$(fnm env --multi)"

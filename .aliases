@@ -11,5 +11,3 @@ alias gpm='git pull origin master'
 alias gd='git diff'
 
 alias dcu='docker-compose up'
-
-alias gcb='git remote prune origin && git branch -vv | grep 'origin/.*: gone]' | awk '{print $1}' | xargs git branch -d'
