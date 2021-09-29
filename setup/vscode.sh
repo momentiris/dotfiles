@@ -7,28 +7,32 @@ fancy_echo "Symlinking VSCode settings"
 ln -s ~/dotfiles/Code/User ~/Library/Application\ Support/Code/User
 
 fancy_echo "Installing VSCode plugins"
-code --install-extension christian-kohler.path-intellisense
-code --install-extension CoenraadS.bracket-pair-colorizer
-code --install-extension Dart-Code.dart-code
-code --install-extension Dart-Code.flutter
-code --install-extension donjayamanne.githistory
+code --install-extension bradlc.vscode-tailwindcss
+code --install-extension DavidAnson.vscode-markdownlint
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension dracula-theme.theme-dracula
 code --install-extension eamodio.gitlens
+code --install-extension EditorConfig.EditorConfig
+code --install-extension elmTooling.elm-ls-vscode
+code --install-extension enkia.tokyo-night
+code --install-extension EQuimper.react-native-react-redux
 code --install-extension esbenp.prettier-vscode
 code --install-extension formulahendry.auto-close-tag
-code --install-extension formulahendry.auto-rename-tag
-code --install-extension freebroccolo.reasonml
-code --install-extension ipedrazas.kubernetes-snippets
+code --install-extension GitHub.github-vscode-theme
+code --install-extension hbenl.vscode-test-explorer
 code --install-extension jaredly.reason-vscode
-code --install-extension jpoissonnier.vscode-styled-components
+code --install-extension johnpapa.vscode-peacock
+code --install-extension kamikillerto.vscode-colorize
+code --install-extension karigari.chat
 code --install-extension kumar-harsh.graphql-for-vscode
-code --install-extension mikestead.dotenv
+code --install-extension marnix.tokyo-night-pro
 code --install-extension ms-azuretools.vscode-docker
-code --install-extension ms-kubernetes-tools.vscode-kubernetes-tools
+code --install-extension ms-dotnettools.csharp
+code --install-extension ms-vscode.test-adapter-converter
 code --install-extension ms-vscode.vscode-typescript-tslint-plugin
 code --install-extension ms-vsliveshare.vsliveshare
 code --install-extension ms-vsliveshare.vsliveshare-audio
 code --install-extension ms-vsliveshare.vsliveshare-pack
-code --install-extension naumovs.color-highlight
-code --install-extension redhat.vscode-yaml
-code --install-extension vincaslt.highlight-matching-tag
-code --install-extension vscode-icons-team.vscode-icons
+code --install-extension octref.vetur
+code --install-extension sdras.night-owl
+code --install-extension thedavej.night-owl-black
