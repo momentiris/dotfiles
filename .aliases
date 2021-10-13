@@ -11,3 +11,4 @@ alias gpm='git pull origin master'
 alias gd='git diff'
 
 alias dcu='docker-compose up'
+alias dcu='docker-compose down'
