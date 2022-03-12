@@ -37,5 +37,10 @@ fancy_echo "Setting up misc applications"
 brew tap caskroom/cask
 brew cask install google-chrome
 brew cask install spotify
+brew install --cask telegram
+brew install --cask signal
+brew install --cask slack
+brew install --cask discord
+
 
 
