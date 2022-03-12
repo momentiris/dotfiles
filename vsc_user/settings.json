@@ -1,14 +1,19 @@
 {
-  "workbench.colorTheme": "Night Owl",
   "colorize.languages": [
     "javascript",
     "typescript"
     // ...
   ],
+
   "editor.overviewRulerBorder": false,
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
   "editor.fontSize": 14,
+  "editor.gotoLocation.multipleDeclarations": "goto",
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "editor.gotoLocation.multipleImplementations": "goto",
+  "editor.gotoLocation.multipleReferences": "goto",
+  "editor.gotoLocation.multipleTypeDefinitions": "goto",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.colorCustomizations": {
     "[Night Owl]": {
@@ -17,19 +22,19 @@
       "sideBar.background": "#01111f",
       "editor.background": "#01111f",
       "editorGutter.background": "#01111f",
-      "terminal.background":"#01111f",
-    }    
+      "terminal.background": "#01111f"
+    }
   },
   "editor.tabSize": 2,
   "javascript.validate.enable": false,
   "editor.snippetSuggestions": "top",
   "search.exclude": {
-    "**/node_modules": false
+    "**/node_modules": false,
+    "node_modules": true
   },
   "typescript.updateImportsOnFileMove.enabled": "always",
   "explorer.confirmDragAndDrop": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "prettier.requireConfig": true,
   "prettier.semi": false,
   "prettier.singleQuote": true,
   "liveshare.featureSet": "insiders",
@@ -42,17 +47,38 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.formatOnSave": true,
-  "terminal.integrated.tabs.enabled": false,
+
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "files.exclude": {
-    "**/node_modules": true,
-    "node_modules": true
   },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "editor.defaultFormatter": "chenglou92.rescript-vscode",
   "keyboard.touchbar.enabled": false,
+  "workbench.colorTheme": "Night Owl",
+  "editor.bracketPairColorization.enabled": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.accessibilitySupport": "off",
+  "window.autoDetectHighContrast": false,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  },
+  "[fsharp]": {
+    "editor.defaultFormatter": "Ionide.Ionide-fsharp"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.tabs.enabled": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "sync.gist": "1aac87d30038b0b62174ec13d144855f"
 }
