@@ -14,14 +14,16 @@ fi
 
 brew update && brew install `brew outdated`
 
-fancy_echo "Installing CLI tools..."
+fancy_echo "Installing development applications and tools..."
 xcode-select install
 brew install openssl
 brew install zsh
 brew install z
-brew install watchman
 brew install antigen
-brew install tree
+brew install --cask dotnet
+brew cask install iterm2
+brew install --cask tableplus
+brew cask install spectacle
 
 fancy_echo "Setting up Node with NVM..."
 mkdir ~/.nvm
@@ -34,7 +36,6 @@ nvm alias default node
 fancy_echo "Setting up misc applications"
 brew tap caskroom/cask
 brew cask install google-chrome
-brew cask install iterm2
-brew cask install spectacle
-brew cask install ngrok
 brew cask install spotify
+
+
