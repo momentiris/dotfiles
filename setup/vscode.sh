@@ -1,10 +1,11 @@
 source ~/dotfiles/setup/functions.sh
 
 fancy_echo "Installing VSCode"
-brew cask install visual-studio-code
+brew install visual-studio-code
 
 fancy_echo "Symlinking VSCode settings"
-ln -s ~/dotfiles/Code/User ~/Library/Application\ Support/Code/User
+ln -s ~/dotfiles/vsc_user/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
+ln -s ~/dotfiles/vsc_user/settings.json ~/Library/Application\ Support/Code/User/settings.json
 
 fancy_echo "Installing VSCode plugins"
 code --install-extension bradlc.vscode-tailwindcss

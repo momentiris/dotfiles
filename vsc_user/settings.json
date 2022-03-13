@@ -80,5 +80,6 @@
   },
   "terminal.integrated.tabs.enabled": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "sync.gist": "1aac87d30038b0b62174ec13d144855f"
+  "sync.gist": "1aac87d30038b0b62174ec13d144855f",
+  "security.workspace.trust.untrustedFiles": "open"
 }

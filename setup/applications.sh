@@ -14,33 +14,24 @@ fi
 
 brew update && brew install `brew outdated`
 
+fancy_echo "Installing fnm..."
+curl -fsSL https://fnm.vercel.app/install | bash
+
 fancy_echo "Installing development applications and tools..."
-xcode-select install
 brew install openssl
 brew install zsh
 brew install z
 brew install antigen
-brew install --cask dotnet
-brew cask install iterm2
-brew install --cask tableplus
-brew cask install spectacle
-
-fancy_echo "Setting up Node with NVM..."
-mkdir ~/.nvm
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
-nvm install node
-nvm alias default node
+brew install dotnet
+brew install iterm2
+brew install tableplus
+brew install spectacle
 
 fancy_echo "Setting up misc applications"
 brew tap caskroom/cask
-brew cask install google-chrome
-brew cask install spotify
-brew install --cask telegram
-brew install --cask signal
-brew install --cask slack
-brew install --cask discord
-
-
-
+brew install google-chrome
+brew install spotify
+brew install telegram
+brew install signal
+brew install slack
+brew install discord
