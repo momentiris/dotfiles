@@ -42,6 +42,7 @@
   "workbench.panel.defaultLocation": "right",
   "editor.minimap.enabled": false,
   "terminal.integrated.fontSize": 13,
+  "terminal.integrated.fontWeightBold": "500",
   "terminal.integrated.fontFamily": "Fira Code",
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
