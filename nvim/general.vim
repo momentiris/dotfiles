@@ -21,3 +21,16 @@ syntax on
 " For plugins to load correctly
 filetype plugin indent on
 
+"" Theme and color settings
+set termguicolors
+set background=dark
+set t_Co=256
+
+colorscheme night-owl
+
+"" Custom highlighting
+highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=DarkGrey guibg=NONE
+
+"" Custom colors
+hi CocCodeLens guifg=#40505E
+

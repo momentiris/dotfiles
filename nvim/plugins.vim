@@ -9,4 +9,7 @@ call plug#begin('~/.vim/plugged')
 
   "" Installs a bunch of languages
   Plug 'sheerun/vim-polyglot'
+
+  " Themes
+  Plug 'believer/night-owl'
 call plug#end()
