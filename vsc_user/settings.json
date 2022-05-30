@@ -6,8 +6,9 @@
   ],
 
   "editor.overviewRulerBorder": false,
-  "editor.fontFamily": "Fira Code",
-  "editor.fontLigatures": true,
+  "editor.fontFamily": "Iosevka Extended",
+  "editor.letterSpacing": 0.30,
+  "editor.fontLigatures": false,
   "editor.fontSize": 14,
   "editor.gotoLocation.multipleDeclarations": "goto",
   "editor.gotoLocation.multipleDefinitions": "goto",
@@ -16,7 +17,7 @@
   "editor.gotoLocation.multipleTypeDefinitions": "goto",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.colorCustomizations": {
-    "[Night Owl]": {
+    "[Night Owl (No Italics)]": {
       "sideBar.border": "#1f3b5c",
       "panel.border": "#1f3b5c",
       "sideBar.background": "#01111f",
@@ -27,7 +28,7 @@
   },
   "editor.tabSize": 2,
   "javascript.validate.enable": false,
-  "editor.snippetSuggestions": "top",
+  "editor.snippetSuggestions": "bottom",
   "search.exclude": {
     "**/node_modules": false,
     "node_modules": true
@@ -41,9 +42,12 @@
   "breadcrumbs.enabled": true,
   "workbench.panel.defaultLocation": "right",
   "editor.minimap.enabled": false,
-  "terminal.integrated.fontSize": 13,
   "terminal.integrated.fontWeightBold": "500",
   "terminal.integrated.fontFamily": "Fira Code",
+  "[fsharp]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "Ionide.Ionide-fsharp"
+  },
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -56,11 +60,14 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "keyboard.touchbar.enabled": false,
-  "workbench.colorTheme": "Night Owl",
+  "workbench.colorTheme": "Night Owl (No Italics)",
   "editor.bracketPairColorization.enabled": true,
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.accessibilitySupport": "off",
   "window.autoDetectHighContrast": false,
+  "omnisharp.path": "latest",
+  // "omnisharp.dotnetPath": "/usr/local/share/dotnet/dotnet",
+  // "omnisharp.monoPath": "/Library/Frameworks/Mono.framework/Versions/6.12.0",
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -73,14 +80,13 @@
   "[csharp]": {
     "editor.defaultFormatter": "ms-dotnettools.csharp"
   },
-  "[fsharp]": {
-    "editor.defaultFormatter": "Ionide.Ionide-fsharp"
-  },
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "terminal.integrated.tabs.enabled": false,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "sync.gist": "1aac87d30038b0b62174ec13d144855f",
-  "security.workspace.trust.untrustedFiles": "open"
+  "security.workspace.trust.untrustedFiles": "open",
+  // "FSharp.dotnetRoot": "/usr/local/share/dotnet/dotnet",
+  "omnisharp.useGlobalMono": "never",
+  "omnisharp.useModernNet": true
 }
