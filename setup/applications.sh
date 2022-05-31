@@ -26,6 +26,8 @@ brew install dotnet
 brew install iterm2
 brew install tableplus
 brew install spectacle
+brew install ripgrep
+
 
 fancy_echo "Setting up misc applications"
 brew tap caskroom/cask
