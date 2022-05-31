@@ -3,6 +3,8 @@ set wildignore+=.DS_Store
 
 let g:NERDTreeRespectWildIgnore = 1
 let g:NERDTreeAutoDeleteBuffer = 1
+let g:NERDTreeShowHidden = 1
+let $FZF_DEFAULT_COMMAND='find . \( -name node_modules -o -name .git \) -prune -o -print'
 
 map <C-n> :NERDTreeToggle<CR>
 
