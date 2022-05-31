@@ -1,0 +1,73 @@
+{
+  "codeLens.separator": "🕶",
+  "codeLens.enable": true,
+  "eslint.autoFixOnSave": true, 
+  "prettier.eslintIntegration": true,
+  "typescript.referencesCodeLens.enable": false,
+  "typescript.preferences.quoteStyle": "single",
+  "typescript.suggest.autoImports": true,
+  "javascript.validate.enable": false,
+  "coc.preferences.formatOnSaveFiletypes": [
+    "css",
+    "graphql",
+    "html",
+    "javascript",
+    "javascriptreact",
+    "json",
+    "markdown",
+    "reason",
+    "rescript",
+    "rust",
+    "svelte",
+    "typescript",
+    "typescriptreact",
+    "vue"
+  ],
+  "prettier.disableLanguages": [
+    "vue"
+  ],
+  "languageserver": {
+    "tailwind-lsp": {
+      "command": "tailwindcss-language-server",
+      "args": ["--stdio"],
+      "filetypes": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "rescript"
+      ],
+      "rootPatterns": [
+        "tailwind.config.js",
+        "tailwind.config.ts",
+        "postcss.config.js",
+        "postcss.config.ts",
+        "package.json",
+        "node_modules",
+        ".git"
+      ],
+      "settings": {
+        "tailwindCSS": {
+          "validate": true,
+          "lint": {
+            "cssConflict": "warning",
+            "invalidApply": "error",
+            "invalidScreen": "error",
+            "invalidVariant": "error",
+            "invalidConfigPath": "error",
+            "invalidTailwindDirective": "error",
+            "recommendedVariantOrder": "warning"
+          },
+          "classAttributes": ["class", "className", "classList", "ngClass"],
+          "experimental": {}
+        }
+      }
+    },
+    "rescript": {
+      "enable": true,
+      "module": "~/.vim/plugged/vim-rescript/server/out/server.js",
+      "args": ["--node-ipc"],
+      "filetypes": ["rescript"],
+      "rootPatterns": ["bsconfig.json"]
+    }
+  }
+}
