@@ -10,6 +10,7 @@ map <C-n> :NERDTreeToggle<CR>
 
 vnoremap <leader>y "*y
 
+inoremap <silent><expr> <c-space> coc#refresh()
 "------------------------------------------------------------
 " CoC settings {{{1
 "
