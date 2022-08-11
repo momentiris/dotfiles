@@ -6,10 +6,10 @@
   ],
 
   "editor.overviewRulerBorder": false,
-  "editor.fontFamily": "Iosevka Extended",
-  "editor.letterSpacing": 0.30,
+  "editor.fontFamily": "Fira Code",
+
   "editor.fontLigatures": false,
-  "editor.fontSize": 14,
+  "editor.fontSize": 13,
   "editor.gotoLocation.multipleDeclarations": "goto",
   "editor.gotoLocation.multipleDefinitions": "goto",
   "editor.gotoLocation.multipleImplementations": "goto",

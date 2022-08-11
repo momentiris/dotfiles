@@ -15,6 +15,7 @@ antigen theme robbyrussell
 #apply
 antigen apply
 
+
 #FNM
 eval "$(fnm env)"
 

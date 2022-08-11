@@ -1,7 +1,7 @@
 {
   "codeLens.separator": "🕶",
-  "codeLens.enable": true,
-  "eslint.autoFixOnSave": true, 
+  "codeLens.enable": false,
+  "eslint.autoFixOnSave": true,
   "prettier.eslintIntegration": true,
   "typescript.referencesCodeLens.enable": false,
   "typescript.preferences.quoteStyle": "single",
@@ -23,19 +23,12 @@
     "typescriptreact",
     "vue"
   ],
-  "prettier.disableLanguages": [
-    "vue"
-  ],
+  "prettier.disableLanguages": ["vue"],
   "languageserver": {
     "tailwind-lsp": {
       "command": "tailwindcss-language-server",
       "args": ["--stdio"],
-      "filetypes": [
-        "javascript",
-        "javascriptreact",
-        "typescript",
-        "rescript"
-      ],
+      "filetypes": ["javascript", "javascriptreact", "typescript", "rescript"],
       "rootPatterns": [
         "tailwind.config.js",
         "tailwind.config.ts",

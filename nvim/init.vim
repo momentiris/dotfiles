@@ -11,6 +11,9 @@ set modelines=0
 " Show line numbers
 set number
 
+:set listchars=tab:\|\ 
+:set list
+
 " Show file stats
 set ruler
 
@@ -50,7 +53,6 @@ set ttyfast
 set laststatus=2
 
 " Last line
-set showmode
 set showcmd
 
 " Searching
@@ -71,8 +73,6 @@ vnoremap <F1> :set invfullscreen<CR>
 " Remap new line 
 nnoremap <Leader>o o<Esc>
 nnoremap <Leader>O O<Esc>
-
-" Textmate holdouts
 
 " Formatting
 map <leader>q gqip

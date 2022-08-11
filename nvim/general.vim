@@ -6,14 +6,13 @@ set shiftwidth=2
 set autoindent
 set expandtab
 set smartindent
+set noshowmode
 
 " Don't try to be vi compatible
 set nocompatible
 
 " Helps force plugins to load correctly when it is turned back on below
 filetype off
-
-" TODO: Load plugins here (pathogen or vundle)
 
 " Turn on syntax highlighting
 syntax on
@@ -33,4 +32,8 @@ highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE gui
 
 "" Custom colors
 hi CocCodeLens guifg=#40505E
+
+let g:lightline = {
+      \ 'colorscheme': 'wombat',
+      \ }
 

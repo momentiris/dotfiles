@@ -1,4 +1,7 @@
 eslint.showOutputChannel
+eslint.executeAutofix
+eslint.lintProject
+eslint.showOutputChannel
 eslint.restart
 eslint.restart
 eslint.restart
