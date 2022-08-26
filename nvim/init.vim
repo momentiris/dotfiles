@@ -3,7 +3,6 @@ execute "source ~/dotfiles/nvim/keybindings.vim"
 execute "source ~/dotfiles/nvim/general.vim"
 
 nnoremap <SPACE> <Nop>
-let mapleader = " "
 
 " Security
 set modelines=0

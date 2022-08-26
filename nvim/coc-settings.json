@@ -7,6 +7,7 @@
   "typescript.preferences.quoteStyle": "single",
   "typescript.suggest.autoImports": true,
   "javascript.validate.enable": false,
+  "elixir.pathToElixirLS": "~/.elixir-ls/release/language_server.sh",
   "coc.preferences.formatOnSaveFiletypes": [
     "css",
     "graphql",
@@ -21,7 +22,8 @@
     "svelte",
     "typescript",
     "typescriptreact",
-    "vue"
+    "vue",
+    "elixir"
   ],
   "prettier.disableLanguages": ["vue"],
   "languageserver": {

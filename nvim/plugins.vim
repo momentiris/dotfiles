@@ -10,7 +10,6 @@ call plug#begin('~/.vim/plugged')
 
   "" Installs a bunch of languages
   Plug 'sheerun/vim-polyglot'
-  Plug 'elixir-lsp/coc-elixir', {'do': 'yarn install && yarn prepack'}
 
   " Themes
   Plug 'believer/night-owl'

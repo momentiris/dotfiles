@@ -1,3 +1,5 @@
+let mapleader = " "
+
 "" NERDTree (SirVer/ultisnips)
 set wildignore+=.DS_Store
 
@@ -8,7 +10,7 @@ let $FZF_DEFAULT_COMMAND='find . \( -name node_modules -o -name .git \) -prune -
 
 map <C-n> :NERDTreeToggle<CR>
 
-vnoremap <leader>y "*y
+noremap <leader>y "*y
 
 map <leader>r :NERDTreeFind<cr>
 
