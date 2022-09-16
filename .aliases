@@ -9,6 +9,8 @@ alias ga='git add'
 alias gs='git status'
 alias gpm='git pull origin master'
 alias gd='git diff'
+alias gl='git log --graph --pretty='\''%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset'\'
+
 
 alias dcu='docker-compose up'
 alias dcd='docker-compose down'

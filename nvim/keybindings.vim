@@ -9,7 +9,6 @@ let g:NERDTreeShowHidden = 1
 let $FZF_DEFAULT_COMMAND='find . \( -name node_modules -o -name .git \) -prune -o -print'
 
 map <C-n> :NERDTreeToggle<CR>
-
 noremap <leader>y "*y
 
 map <leader>r :NERDTreeFind<cr>
