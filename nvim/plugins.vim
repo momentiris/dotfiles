@@ -3,6 +3,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
   Plug 'junegunn/fzf.vim'
   Plug 'itchyny/lightline.vim'
+  Plug 'petertriho/nvim-scrollbar'
 
   " NERDTree - File explorer
   Plug 'preservim/nerdtree'

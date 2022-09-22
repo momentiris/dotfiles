@@ -27,6 +27,8 @@ set t_Co=256
 
 colorscheme night-owl
 
+: lua require("scrollbar").setup()
+
 "" Custom highlighting
 highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=DarkGrey guibg=NONE
 
