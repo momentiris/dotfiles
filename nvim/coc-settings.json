@@ -25,6 +25,7 @@
     "vue",
     "elixir"
   ],
+  "diagnostic.warningSign": null,
   "prettier.disableLanguages": ["vue"],
   "languageserver": {
     "tailwind-lsp": {

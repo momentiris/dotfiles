@@ -6,6 +6,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'petertriho/nvim-scrollbar'
   Plug 'chrisbra/vim-commentary'
   Plug 'tpope/vim-fugitive'
+  Plug 'airblade/vim-gitgutter'
 
   "" NERDTree - File explorer
   Plug 'preservim/nerdtree'
