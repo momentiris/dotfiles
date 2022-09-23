@@ -4,6 +4,7 @@ execute "source ~/dotfiles/nvim/general.vim"
 
 nnoremap <SPACE> <Nop>
 
+
 " Security
 set modelines=0
 

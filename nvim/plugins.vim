@@ -4,8 +4,10 @@ call plug#begin('~/.vim/plugged')
   Plug 'junegunn/fzf.vim'
   Plug 'itchyny/lightline.vim'
   Plug 'petertriho/nvim-scrollbar'
+  Plug 'chrisbra/vim-commentary'
+  Plug 'tpope/vim-fugitive'
 
-  " NERDTree - File explorer
+  "" NERDTree - File explorer
   Plug 'preservim/nerdtree'
   Plug 'Xuyuanp/nerdtree-git-plugin'
 
