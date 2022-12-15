@@ -90,5 +90,7 @@
   "omnisharp.useGlobalMono": "never",
   "omnisharp.useModernNet": true,
   "typescript.enablePromptUseWorkspaceTsdk": true,
-  "typescript.tsdk": "./node_modules/typescript/lib"
+  "typescript.tsdk": "./node_modules/typescript/lib",
+  "FSharp.suggestGitignore": false,
+  "typescript.referencesCodeLens.enabled": true
 }

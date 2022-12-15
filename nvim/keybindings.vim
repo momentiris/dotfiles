@@ -6,6 +6,7 @@ set wildignore+=.DS_Store
 let g:NERDTreeRespectWildIgnore = 1
 let g:NERDTreeAutoDeleteBuffer = 1
 let g:NERDTreeShowHidden = 1
+:let g:NERDTreeWinSize = 40
 let $FZF_DEFAULT_COMMAND='find . \( -name node_modules -o -name .git \) -prune -o -print'
 
 map <C-n> :NERDTreeToggle<CR>
@@ -21,6 +22,8 @@ nmap <silent> gy <Plug>(coc-type-definition)
 nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
 nmap <silent> ga <Plug>(coc-codeaction-line)
+nmap <silent> <leader>j <Plug>(coc-diagnostic-next-error)
+nmap <silent> <leader>k <Plug>(coc-diagnostic-next)
 " trigger coc documentation for function, type etc
 nnoremap <silent> K :call <SID>show_documentation()<CR>
 
