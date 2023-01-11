@@ -22,8 +22,11 @@ nmap <silent> gy <Plug>(coc-type-definition)
 nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
 nmap <silent> ga <Plug>(coc-codeaction-line)
+
+" Jump to prev and next error
 nmap <silent> <leader>j <Plug>(coc-diagnostic-next-error)
-nmap <silent> <leader>k <Plug>(coc-diagnostic-next)
+nmap <silent> <leader>k <Plug>(coc-diagnostic-prev-error)
+
 " trigger coc documentation for function, type etc
 nnoremap <silent> K :call <SID>show_documentation()<CR>
 
