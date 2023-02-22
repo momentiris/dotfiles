@@ -4,12 +4,12 @@ execute "source ~/dotfiles/nvim/general.vim"
 
 nnoremap <SPACE> <Nop>
 
-
 " Security
 set modelines=0
 
 " Show line numbers
 set number
+set rnu
 
 :set listchars=tab:\|\ 
 :set list
