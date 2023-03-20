@@ -1,2 +1,3 @@
 node_modules
 coc/extensions/coc-rust-analyzer-data/*
+coc/commands

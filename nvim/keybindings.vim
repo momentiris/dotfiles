@@ -37,7 +37,7 @@ inoremap <silent><expr> <c-space> coc#refresh()
 
 " map enter key to apply coc suggestion
 inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
-"
+
 " use <tab> for trigger completion and navigate to the next complete item
 function! s:check_back_space() abort
   let col = col('.') - 1
@@ -57,7 +57,7 @@ function! s:show_documentation()
   endif
 endfunction
 
-:"" Fzf
+" Fzf
 nmap ; :Files<CR>
 nmap cc :Commands<CR>
 nmap ?? :Rg!<CR>
@@ -74,6 +74,12 @@ nnoremap <silent> <C-g>g :call FZFOpen(':Ag')<CR>
 nnoremap <silent> <C-g>c :call FZFOpen(':Commands')<CR>
 nnoremap <silent> <C-g>l :call FZFOpen(':BLines')<CR>
 
+" Move between split panes
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
 " close buffers and accept current
-command BufOnly silent! execute “%bd|e#|bd#”
+command BufOnly silent! execute "%bd|e#|bd#"
 nnoremap <leader>b :BufOnly<CR>
