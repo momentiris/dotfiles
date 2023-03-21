@@ -17,6 +17,7 @@ call plug#begin('~/.vim/plugged')
 
   " Themes
   Plug 'believer/night-owl'
+  Plug 'drewtempelmeyer/palenight.vim'
 
   " Misc
   Plug 'Yggdroot/indentLine'

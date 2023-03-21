@@ -22,20 +22,20 @@ filetype plugin indent on
 
 "" Theme and color settings
 set termguicolors
-set background=dark
 set t_Co=256
 
-colorscheme night-owl
+let g:palenight_color_overrides = {
+\    'black': { 'gui': '#1B1E28', "cterm": "0", "cterm16": "0" },
+\}
+colorscheme palenight
+let g:lightline = { 'colorscheme': 'palenight' }
 
 : lua require("scrollbar").setup()
 
-"" Custom highlighting
-highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=DarkGrey guibg=NONE
-
 "" Custom colors
 hi CocCodeLens guifg=#40505E
-
-let g:lightline = {
-      \ 'colorscheme': 'wombat',
-      \ }
-
+hi CocInlayHint guifg=Gray
+hi DiagnosticUnderlineError cterm=undercurl gui=underdash
+hi DiagnosticUnderlineWarn cterm=underline gui=underdash guisp=Orange                                                                                                                                                                       
+hi DiagnosticUnderlineInfo cterm=underline gui=underdash guisp=LightBlue                                                                                                                                                                    
+hi DiagnosticUnderlineHint cterm=underline gui=underdash guisp=LightGrey 

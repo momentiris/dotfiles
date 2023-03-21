@@ -25,7 +25,8 @@
     "vue",
     "elixir"
   ],
-  "diagnostic.warningSign": null,
+  "diagnostic.warningSign": "~",
+  "diagnostic.errorSign": "~",
   "prettier.disableLanguages": ["vue"],
   "languageserver": {
     "rescript": {
