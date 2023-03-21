@@ -24,6 +24,7 @@ filetype plugin indent on
 set termguicolors
 set t_Co=256
 
+
 let g:palenight_color_overrides = {
 \    'black': { 'gui': '#1B1E28', "cterm": "0", "cterm16": "0" },
 \}
@@ -36,6 +37,6 @@ let g:lightline = { 'colorscheme': 'palenight' }
 hi CocCodeLens guifg=#40505E
 hi CocInlayHint guifg=Gray
 hi DiagnosticUnderlineError cterm=undercurl gui=underdash
-hi DiagnosticUnderlineWarn cterm=underline gui=underdash guisp=Orange                                                                                                                                                                       
-hi DiagnosticUnderlineInfo cterm=underline gui=underdash guisp=LightBlue                                                                                                                                                                    
-hi DiagnosticUnderlineHint cterm=underline gui=underdash guisp=LightGrey 
+hi DiagnosticUnderlineWarn cterm=underline gui=underdash guisp=Orange
+hi DiagnosticUnderlineInfo cterm=underline gui=underdash guisp=LightBlue
+hi DiagnosticUnderlineHint cterm=underline gui=underdash guisp=LightGrey
