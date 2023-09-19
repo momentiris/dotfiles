@@ -92,5 +92,6 @@
   "typescript.enablePromptUseWorkspaceTsdk": true,
   "typescript.tsdk": "./node_modules/typescript/lib",
   "FSharp.suggestGitignore": false,
-  "typescript.referencesCodeLens.enabled": true
+  "typescript.referencesCodeLens.enabled": true,
+  "terminal.integrated.fontSize": 14
 }

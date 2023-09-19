@@ -7,6 +7,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'chrisbra/vim-commentary'
   Plug 'tpope/vim-fugitive'
   Plug 'airblade/vim-gitgutter'
+  Plug 'rescript-lang/vim-rescript'
 
   "" NERDTree - File explorer
   Plug 'preservim/nerdtree'

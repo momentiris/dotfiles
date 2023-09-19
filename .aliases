@@ -14,3 +14,4 @@ alias gl='git log --graph --pretty='\''%Cred%h%Creset -%C(auto)%d%Creset %s %Cgr
 
 alias dcu='docker-compose up'
 alias dcd='docker-compose down'
+alias dcod='docker-compose rm -s -v'

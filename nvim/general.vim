@@ -33,7 +33,7 @@ let g:lightline = { 'colorscheme': 'palenight' }
 "" Custom colors
 hi CocCodeLens guifg=#40505E
 hi CocInlayHint guifg=Gray
-hi DiagnosticUnderlineError cterm=undercurl gui=underdash
-hi DiagnosticUnderlineWarn cterm=underline gui=underdash guisp=Orange
-hi DiagnosticUnderlineInfo cterm=underline gui=underdash guisp=LightBlue
-hi DiagnosticUnderlineHint cterm=underline gui=underdash guisp=LightGrey
+hi DiagnosticUnderlineError cterm=undercurl gui=undercurl
+hi DiagnosticUnderlineWarn cterm=underline gui=undercurl guisp=Orange
+hi DiagnosticUnderlineInfo cterm=underline gui=undercurl guisp=LightBlue
+hi DiagnosticUnderlineHint cterm=underline gui=undercurl guisp=LightGrey

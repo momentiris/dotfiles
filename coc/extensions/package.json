@@ -1,14 +1,14 @@
 {
   "dependencies": {
-    "@yaegassy/coc-tailwindcss3": ">=0.4.9",
-    "coc-css": ">=1.3.0",
+    "@yaegassy/coc-tailwindcss3": ">=0.5.4",
+    "coc-css": ">=2.0.0",
     "coc-elixir": ">=0.7.0",
     "coc-eslint": ">=1.6.0",
     "coc-prettier": ">=9.3.1",
-    "coc-rust-analyzer": ">=0.72.1",
-    "coc-tsserver": ">=1.10.4"
+    "coc-rust-analyzer": ">=0.73.0",
+    "coc-tsserver": ">=2.1.3"
   },
   "disabled": [],
   "locked": [],
-  "lastUpdate": 1679664045372
+  "lastUpdate": 1681977151994
 }

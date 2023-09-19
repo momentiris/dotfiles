@@ -1,11 +1,12 @@
 {
   "codeLens.separator": "🕶",
   "codeLens.enable": false,
-  "eslint.autoFixOnSave": true,
+  "eslint.autoFixOnSave": false,
   "prettier.eslintIntegration": true,
   "typescript.referencesCodeLens.enable": false,
   "typescript.preferences.quoteStyle": "single",
   "typescript.suggest.autoImports": true,
+  "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
   "tsserver.useLocalTsdk": true,
   "javascript.validate.enable": false,
   "elixir.pathToElixirLS": "~/.elixir-ls/release/language_server.sh",
