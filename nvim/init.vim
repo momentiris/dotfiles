@@ -1,6 +1,6 @@
-execute "source ~/dotfiles/nvim/plugins.vim"
-execute "source ~/dotfiles/nvim/keybindings.vim"
-execute "source ~/dotfiles/nvim/general.vim"
+execute "source ~/dev/dotfiles/nvim/plugins.vim"
+execute "source ~/dev/dotfiles/nvim/keybindings.vim"
+execute "source ~/dev/dotfiles/nvim/general.vim"
 
 nnoremap <SPACE> <Nop>
 

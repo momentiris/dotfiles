@@ -27,6 +27,7 @@ brew install iterm2
 brew install tableplus
 brew install spectacle
 brew install ripgrep
+brew install libpq
 
 
 fancy_echo "Setting up misc applications"

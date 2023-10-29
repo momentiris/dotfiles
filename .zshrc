@@ -5,7 +5,7 @@ antigen use oh-my-zsh
 antigen bundle git
 antigen bundle command-not-found
 antigen bundle npm
-antigen bundle fnm
+# antigen bundle fnm
 
 # syntax
 antigen bundle zsh-users/zsh-syntax-highlighting
@@ -58,3 +58,8 @@ export JAVA_HOME="/Library/Java/JavaVirtualMachines/zulu-11.jdk/Contents/Home"
 export ANDROID_HOME=$HOME/Library/Android/sdk
 export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/platform-tools
+
+# fnm
+# export PATH="/Users/andreaslundqvist/Library/Application Support/fnm:$PATH"
+# eval "`fnm env`"
+
