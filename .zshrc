@@ -63,3 +63,4 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 # export PATH="/Users/andreaslundqvist/Library/Application Support/fnm:$PATH"
 # eval "`fnm env`"
 
+export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
