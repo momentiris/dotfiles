@@ -7,7 +7,9 @@ let g:NERDTreeRespectWildIgnore = 1
 let g:NERDTreeAutoDeleteBuffer = 1
 let g:NERDTreeShowHidden = 1
 :let g:NERDTreeWinSize = 40
-let $FZF_DEFAULT_COMMAND='find . \( -name node_modules -o -name .git \) -prune -o -print'
+
+" Use ripgrep for fzf
+let $FZF_DEFAULT_COMMAND='rg --files --hidden'
 
 map <C-n> :NERDTreeToggle<CR>
 noremap <leader>y "*y
