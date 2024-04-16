@@ -8,6 +8,7 @@
   "typescript.suggest.autoImports": true,
   "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
   "tsserver.useLocalTsdk": true,
+  "volar.disableFormatting": true,
   "javascript.validate.enable": false,
   "elixir.pathToElixirLS": "~/.elixir-ls/release/language_server.sh",
   "coc.preferences.formatOnSaveFiletypes": [
@@ -38,6 +39,11 @@
       "args": ["--node-ipc"],
       "filetypes": ["rescript"],
       "rootPatterns": ["bsconfig.json"]
+    },
+    "ocaml-lsp": {
+      "command": "opam",
+      "args": ["config", "exec", "--", "ocamllsp"],
+      "filetypes": ["ocaml", "reason"]
     }
   }
 }

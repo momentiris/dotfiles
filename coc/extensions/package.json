@@ -6,9 +6,10 @@
     "coc-eslint": ">=1.6.0",
     "coc-prettier": ">=9.3.2",
     "coc-rust-analyzer": ">=0.75.0",
-    "coc-tsserver": ">=2.1.4"
+    "coc-tsserver": ">=2.1.4",
+    "@yaegassy/coc-volar": ">=0.35.4"
   },
   "disabled": [],
   "locked": [],
-  "lastUpdate": 1698396127238
+  "lastUpdate": 1713296757760
 }

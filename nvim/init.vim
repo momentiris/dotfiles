@@ -76,3 +76,6 @@ nnoremap <Leader>O O<Esc>
 
 " Formatting
 map <leader>q gqip
+
+" Reason syntax
+au BufReadPost *.re set syntax=reason

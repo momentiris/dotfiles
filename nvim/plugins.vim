@@ -8,6 +8,8 @@ call plug#begin('~/.vim/plugged')
   Plug 'tpope/vim-fugitive'
   Plug 'airblade/vim-gitgutter'
   Plug 'rescript-lang/vim-rescript'
+  Plug 'amiralies/vim-reason'
+  Plug 'OmniSharp/omnisharp-vim'
 
   "" NERDTree - File explorer
   Plug 'preservim/nerdtree'
@@ -23,4 +25,5 @@ call plug#begin('~/.vim/plugged')
   " Misc
   Plug 'Yggdroot/indentLine'
   Plug 'tpope/vim-surround' " Surround words something
+  Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && npx --yes yarn install' }
   call plug#end()

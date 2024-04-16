@@ -8,8 +8,11 @@ let g:NERDTreeAutoDeleteBuffer = 1
 let g:NERDTreeShowHidden = 1
 :let g:NERDTreeWinSize = 40
 
+"" Dotnet
+let g:OmniSharp_server_use_mono = 0
+
 " Use ripgrep for fzf
-let $FZF_DEFAULT_COMMAND='rg --files --hidden'
+let $FZF_DEFAULT_COMMAND='rg --files --hidden --glob=!.git/'
 
 map <C-n> :NERDTreeToggle<CR>
 noremap <leader>y "*y
@@ -63,6 +66,11 @@ endfunction
 nmap ; :Files<CR>
 nmap cc :Commands<CR>
 nmap ?? :Rg!<CR>
+
+command! -bang -nargs=* Rg
+  \ call fzf#vim#grep(
+  \   'rg --hidden --glob=!.git --column --line-number --no-heading --color=always --smart-case -- '.shellescape(<q-args>), 1,
+  \   fzf#vim#with_preview(), <bang>0)
 
 function! FZFOpen(command_str)
   if (expand('%') =~# 'NERD_tree' && winnr('$') > 1)

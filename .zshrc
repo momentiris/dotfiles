@@ -54,7 +54,7 @@ export PATH="/Users/andlundq/Library/Android/sdk/platform-tools/:$PATH"
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
-export JAVA_HOME="/Library/Java/JavaVirtualMachines/zulu-11.jdk/Contents/Home"
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home
 export ANDROID_HOME=$HOME/Library/Android/sdk
 export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/platform-tools
@@ -64,3 +64,7 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 # eval "`fnm env`"
 
 export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
+export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
+
+# opam configuration
+[[ ! -r /Users/andreaslundqvist/.opam/opam-init/init.zsh ]] || source /Users/andreaslundqvist/.opam/opam-init/init.zsh  > /dev/null 2> /dev/null
