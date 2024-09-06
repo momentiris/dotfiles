@@ -27,8 +27,10 @@ let g:palenight_color_overrides = {
 \    'black': { 'gui': '#1B1E28', "cterm": "0", "cterm16": "0" },
 \}
 
-colorscheme palenight
-let g:lightline = { 'colorscheme': 'palenight' }
+" colorscheme palenight
+" let g:lightline = { 'colorscheme': 'palenight' }
+colorscheme catppuccin-latte
+let g:lightline = {'colorscheme': 'catppuccin'}
 
 "" Custom colors
 hi CocCodeLens guifg=#40505E
