@@ -10,6 +10,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'rescript-lang/vim-rescript'
   Plug 'amiralies/vim-reason'
   Plug 'OmniSharp/omnisharp-vim'
+  Plug 'github/copilot.vim'
 
   "" NERDTree - File explorer
   Plug 'preservim/nerdtree'

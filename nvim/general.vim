@@ -29,7 +29,7 @@ let g:palenight_color_overrides = {
 
 " colorscheme palenight
 " let g:lightline = { 'colorscheme': 'palenight' }
-colorscheme catppuccin-latte
+colorscheme catppuccin-frappe
 let g:lightline = {'colorscheme': 'catppuccin'}
 
 "" Custom colors

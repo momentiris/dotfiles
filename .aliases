@@ -10,6 +10,9 @@ alias gs='git status'
 alias gpm='git pull origin master'
 alias gd='git diff'
 alias gl='git log --graph --pretty='\''%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset'\'
+alias gp='git pull'
+alias gcam='git commit --amend'
+alias gcnam='git commit --amend --no-edit'
 
 
 alias dcu='docker-compose up'

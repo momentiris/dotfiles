@@ -7,9 +7,10 @@
     "coc-prettier": ">=9.3.2",
     "coc-rust-analyzer": ">=0.75.0",
     "coc-tsserver": ">=2.1.4",
-    "@yaegassy/coc-volar": ">=0.35.4"
+    "@yaegassy/coc-volar": ">=0.35.4",
+    "coc-biome": ">=1.8.0"
   },
   "disabled": [],
   "locked": [],
-  "lastUpdate": 1713296757760
+  "lastUpdate": 1726664292015
 }
