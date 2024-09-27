@@ -79,3 +79,7 @@ map <leader>q gqip
 
 " Reason syntax
 au BufReadPost *.re set syntax=reason
+
+" Folding
+set foldmethod=syntax
+set foldlevelstart=99
