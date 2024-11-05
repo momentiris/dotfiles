@@ -3,13 +3,11 @@ call plug#begin('~/.vim/plugged')
   Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
   Plug 'junegunn/fzf.vim'
   Plug 'itchyny/lightline.vim'
-  Plug 'petertriho/nvim-scrollbar'
   Plug 'chrisbra/vim-commentary'
   Plug 'tpope/vim-fugitive'
   Plug 'airblade/vim-gitgutter'
   Plug 'rescript-lang/vim-rescript'
   Plug 'amiralies/vim-reason'
-  Plug 'OmniSharp/omnisharp-vim'
   Plug 'github/copilot.vim'
 
   "" NERDTree - File explorer
