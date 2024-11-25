@@ -4,5 +4,8 @@
   },
   "@yaegassy/coc-volar|/Users/andreaslundqvist/dev/mimer/Webbappar/sok-ledigt": {
     "coc-volar-tsdk-path": "/Users/andreaslundqvist/dev/dotfiles/coc/extensions/node_modules/@yaegassy/coc-volar/node_modules/typescript/lib"
+  },
+  "@yaegassy/coc-volar|/Users/andreaslundqvist/dev/mimer/Webbappar/mina-sidor": {
+    "coc-volar-tsdk-path": "/Users/andreaslundqvist/dev/dotfiles/coc/extensions/node_modules/@yaegassy/coc-volar/node_modules/typescript/lib"
   }
 }
