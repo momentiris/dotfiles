@@ -15,7 +15,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'Xuyuanp/nerdtree-git-plugin'
 
   "" Installs a bunch of languages
-  Plug 'sheerun/vim-polyglot'
+" Plug 'sheerun/vim-polyglot'
 
   " Themes
   Plug 'believer/night-owl'

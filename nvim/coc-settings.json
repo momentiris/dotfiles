@@ -6,7 +6,7 @@
   "typescript.referencesCodeLens.enable": false,
   "typescript.preferences.quoteStyle": "single",
   "typescript.suggest.autoImports": true,
-  "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "typescript.inlayHints.functionLikeReturnTypes.enabled": false,
   "tsserver.useLocalTsdk": true,
   "volar.disableFormatting": true,
   "javascript.validate.enable": false,

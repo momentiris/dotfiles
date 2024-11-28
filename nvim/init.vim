@@ -83,3 +83,7 @@ au BufReadPost *.re set syntax=reason
 " Folding
 set foldmethod=syntax
 set foldlevelstart=99
+
+" Dont hide quotes
+let g:markdown_syntax_conceal=0
+let g:vim_json_conceal=0
