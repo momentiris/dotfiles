@@ -54,7 +54,6 @@ set laststatus=2
 
 " Last line
 set showcmd
-
 " Searching
 nnoremap / /\v
 vnoremap / /\v

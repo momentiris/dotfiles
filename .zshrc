@@ -68,3 +68,19 @@ export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
 
 # opam configuration
 [[ ! -r /Users/andreaslundqvist/.opam/opam-init/init.zsh ]] || source /Users/andreaslundqvist/.opam/opam-init/init.zsh  > /dev/null 2> /dev/null
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/andlundq/Downloads/google-cloud-sdk 2/path.zsh.inc' ]; then . '/Users/andlundq/Downloads/google-cloud-sdk 2/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/andlundq/Downloads/google-cloud-sdk 2/completion.zsh.inc' ]; then . '/Users/andlundq/Downloads/google-cloud-sdk 2/completion.zsh.inc'; fi
+
+# bun completions
+[ -s "/Users/andlundq/.bun/_bun" ] && source "/Users/andlundq/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+# dune
+source $HOME/.dune/env/env.zsh

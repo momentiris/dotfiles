@@ -26,4 +26,14 @@ call plug#begin('~/.vim/plugged')
   Plug 'Yggdroot/indentLine'
   Plug 'tpope/vim-surround' " Surround words something
   Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && npx --yes yarn install' }
+  Plug 'github/copilot.vim'
+  Plug 'nvim-lua/plenary.nvim'
+  Plug 'CopilotC-Nvim/CopilotChat.nvim', { 'branch': 'main' }
+
   call plug#end()
+
+lua << EOF
+require("CopilotChat").setup {
+  -- See Configuration section for options
+}
+EOF
