@@ -18,3 +18,5 @@ alias gcnam='git commit --amend --no-edit'
 alias dcu='docker-compose up'
 alias dcd='docker-compose down'
 alias dcod='docker-compose rm -s -v'
+
+alias xpt='ssh -N -L 11434:172.31.20.90:1433 iteam@217.78.24.188'

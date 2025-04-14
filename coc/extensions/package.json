@@ -5,12 +5,13 @@
     "coc-eslint": ">=1.6.0",
     "coc-prettier": ">=9.3.2",
     "coc-rust-analyzer": ">=0.75.0",
-    "coc-tsserver": ">=2.1.4",
+    "coc-tsserver": ">=2.2.0",
     "coc-biome": ">=1.8.0",
     "coc-json": ">=1.9.2",
-    "coc-yaml": ">=1.9.0"
+    "coc-yaml": ">=1.9.0",
+    "@yaegassy/coc-tailwindcss3": ">=0.5.19"
   },
   "disabled": [],
   "locked": [],
-  "lastUpdate": 1733391166321
+  "lastUpdate": 1733398097300
 }

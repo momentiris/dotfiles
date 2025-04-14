@@ -14,49 +14,49 @@
   "coc-json|global": {
     "json-schema-cache": {
       "http://json.schemastore.org/prettierrc": {
-        "etag": "\"079e10ba4ada1:0\"",
+        "etag": "\"802ea48a747bdb1:0\"",
         "fileName": "b2ed7a7b6c79e58baf94e4ce160282de.schema.json",
-        "updateTime": 1733305888843
+        "updateTime": 1743595084256
       },
       "https://json.schemastore.org/package.json": {
-        "etag": "\"8027545973adb1:0\"",
+        "etag": "\"80a2ebcf3794db1:0\"",
         "fileName": "473f72b44c2905902dfbcc770aab7f7a.schema.json",
-        "updateTime": 1733305889195
+        "updateTime": 1743595084556
       },
       "https://json.schemastore.org/jscpd.json": {
         "etag": "\"06c7f331a12db1:0\"",
         "fileName": "22bfc1ab1ff56aae62322f6ce45dab5a.schema.json",
-        "updateTime": 1733305889915
+        "updateTime": 1743595085303
       },
       "https://json.schemastore.org/stylelintrc.json": {
         "etag": "\"8027545973adb1:0\"",
         "fileName": "000bfbdd14d2fb8ec5b0d59bec32ef98.schema.json",
-        "updateTime": 1733305889922
+        "updateTime": 1743595085301
       },
       "https://json.schemastore.org/prettierrc.json": {
-        "etag": "\"079e10ba4ada1:0\"",
+        "etag": "\"802ea48a747bdb1:0\"",
         "fileName": "ea5ab10330a3ab77dfd6d00a735b0925.schema.json",
-        "updateTime": 1733305889912
+        "updateTime": 1743595085300
       },
       "https://json.schemastore.org/eslintrc.json": {
         "etag": "\"805385dd39b8da1:0\"",
         "fileName": "c5064f140d4cfdbf4d6fbe68f68abbb1.schema.json",
-        "updateTime": 1733305889934
+        "updateTime": 1743595085310
       },
       "https://json.schemastore.org/semantic-release.json": {
         "etag": "\"09e8ecc624ada1:0\"",
         "fileName": "fbc95702ba6eddb3e2de4f52e31ca82a.schema.json",
-        "updateTime": 1733305889918
+        "updateTime": 1743595085307
       },
       "https://json.schemastore.org/ava.json": {
         "etag": "\"0d33f13698ada1:0\"",
         "fileName": "635f57185b22bce9d3a56c68f5da4ad7.schema.json",
-        "updateTime": 1733305889905
+        "updateTime": 1743595085299
       },
       "https://json.schemastore.org/partial-eslint-plugins.json": {
-        "etag": "\"01dc33f55f4da1:0\"",
+        "etag": "\"80f7bedc396cdb1:0\"",
         "fileName": "fc7bb6e733b774ce47be6006f0b75b87.schema.json",
-        "updateTime": 1733305890652
+        "updateTime": 1743595086021
       },
       "https://turbo.build/schema.json": {
         "etag": "W/\"17db744f1ae883be2e5f0e86c5922ce5\"",
@@ -69,9 +69,29 @@
         "updateTime": 1732891279612
       },
       "https://json.schemastore.org/tsconfig.json": {
-        "etag": "\"03067ed5e3fdb1:0\"",
+        "etag": "\"801878e9716bdb1:0\"",
         "fileName": "a28507e42e8bfd5fba830538461d5db3.schema.json",
-        "updateTime": 1733313543619
+        "updateTime": 1739348629748
+      },
+      "https://json.schemastore.org/appsettings.json": {
+        "etag": "\"80772ed83149da1:0\"",
+        "fileName": "bf27c8ae35490da77fcf87ad9b187dc6.schema.json",
+        "updateTime": 1736866168987
+      },
+      "https://json.schemastore.org/jsconfig.json": {
+        "etag": "\"03067ed5e3fdb1:0\"",
+        "fileName": "6ff9f802958977b3c287b369d75da211.schema.json",
+        "updateTime": 1736929314506
+      },
+      "https://ui.shadcn.com/schema.json": {
+        "etag": "W/\"ad89126ff63990487657e982315fcb2a\"",
+        "fileName": "d99eec6fd7f2b46c72fe2cdaa964e70f.schema.json",
+        "updateTime": 1739348351661
+      },
+      "https://json.schemastore.org/swagger-2.0.json": {
+        "etag": "\"0a624b1156da1:0\"",
+        "fileName": "2be3b0ba5d7afaced8cb1c4b0ae3acaa.schema.json",
+        "updateTime": 1739797213051
       }
     }
   }
