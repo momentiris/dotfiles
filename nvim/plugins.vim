@@ -29,6 +29,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'github/copilot.vim'
   Plug 'nvim-lua/plenary.nvim'
   Plug 'CopilotC-Nvim/CopilotChat.nvim', { 'branch': 'main' }
+  Plug 'prisma/vim-prisma'
 
   call plug#end()
 

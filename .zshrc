@@ -5,7 +5,6 @@ antigen use oh-my-zsh
 antigen bundle git
 antigen bundle command-not-found
 antigen bundle npm
-# antigen bundle fnm
 
 # syntax
 antigen bundle zsh-users/zsh-syntax-highlighting
@@ -15,6 +14,7 @@ antigen theme robbyrussell
 #apply
 antigen apply
 
+export PROMPT=${PROMPT//\%c/\%~}
 
 #FNM
 eval "$(fnm env)"
