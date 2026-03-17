@@ -14,54 +14,54 @@
   "coc-json|global": {
     "json-schema-cache": {
       "http://json.schemastore.org/prettierrc": {
-        "etag": "\"802ea48a747bdb1:0\"",
+        "etag": "W/\"68f006f9-348e\"",
         "fileName": "b2ed7a7b6c79e58baf94e4ce160282de.schema.json",
-        "updateTime": 1746003828282
+        "updateTime": 1760616050275
       },
       "https://json.schemastore.org/package.json": {
-        "etag": "\"0d842311ea4db1:0\"",
+        "etag": "W/\"68f7f062-ad0b\"",
         "fileName": "473f72b44c2905902dfbcc770aab7f7a.schema.json",
-        "updateTime": 1746003828628
+        "updateTime": 1761116836076
       },
       "https://json.schemastore.org/jscpd.json": {
-        "etag": "\"06c7f331a12db1:0\"",
+        "etag": "W/\"68f7f062-298b\"",
         "fileName": "22bfc1ab1ff56aae62322f6ce45dab5a.schema.json",
-        "updateTime": 1746003829348
+        "updateTime": 1761116837539
       },
       "https://json.schemastore.org/stylelintrc.json": {
-        "etag": "\"8027545973adb1:0\"",
+        "etag": "W/\"68f7f062-1c1fa\"",
         "fileName": "000bfbdd14d2fb8ec5b0d59bec32ef98.schema.json",
-        "updateTime": 1746003829341
+        "updateTime": 1761116837522
       },
       "https://json.schemastore.org/prettierrc.json": {
-        "etag": "\"802ea48a747bdb1:0\"",
+        "etag": "W/\"68f7f062-348e\"",
         "fileName": "ea5ab10330a3ab77dfd6d00a735b0925.schema.json",
-        "updateTime": 1746003829359
+        "updateTime": 1761116836074
       },
       "https://json.schemastore.org/eslintrc.json": {
-        "etag": "\"805385dd39b8da1:0\"",
+        "etag": "W/\"68f7f062-d796\"",
         "fileName": "c5064f140d4cfdbf4d6fbe68f68abbb1.schema.json",
-        "updateTime": 1746003829348
+        "updateTime": 1761116838160
       },
       "https://json.schemastore.org/semantic-release.json": {
-        "etag": "\"09e8ecc624ada1:0\"",
+        "etag": "W/\"68f7f062-e26\"",
         "fileName": "fbc95702ba6eddb3e2de4f52e31ca82a.schema.json",
-        "updateTime": 1746003829347
+        "updateTime": 1761116837526
       },
       "https://json.schemastore.org/ava.json": {
-        "etag": "\"0d33f13698ada1:0\"",
+        "etag": "W/\"68f7f062-19f0\"",
         "fileName": "635f57185b22bce9d3a56c68f5da4ad7.schema.json",
-        "updateTime": 1746003829335
+        "updateTime": 1761116837516
       },
       "https://json.schemastore.org/partial-eslint-plugins.json": {
-        "etag": "\"80f7bedc396cdb1:0\"",
+        "etag": "W/\"68f7f062-72d5a\"",
         "fileName": "fc7bb6e733b774ce47be6006f0b75b87.schema.json",
-        "updateTime": 1746003830047
+        "updateTime": 1761116837545
       },
       "https://turbo.build/schema.json": {
-        "etag": "W/\"17db744f1ae883be2e5f0e86c5922ce5\"",
+        "etag": "W/\"f451209e9e74fda1ede8d1ba54c24ab6\"",
         "fileName": "0226f33021d03cf4989a441e813553f2.schema.json",
-        "updateTime": 1732802166112
+        "updateTime": 1755001114331
       },
       "https://raw.githubusercontent.com/jfrog/build-info-go/main/buildinfo-schema.json": {
         "etag": "W/\"97f08f0d2ca09a5775269bd0c259e15f42e3d70660bc3c3f2459953d0ea4254a\"",
@@ -69,14 +69,14 @@
         "updateTime": 1732891279612
       },
       "https://json.schemastore.org/tsconfig.json": {
-        "etag": "\"0b295b87093db1:0\"",
+        "etag": "W/\"68fe8728-12fdc\"",
         "fileName": "a28507e42e8bfd5fba830538461d5db3.schema.json",
-        "updateTime": 1744793312964
+        "updateTime": 1761562224753
       },
       "https://json.schemastore.org/appsettings.json": {
-        "etag": "\"80772ed83149da1:0\"",
+        "etag": "W/\"68d99c98-89a5\"",
         "fileName": "bf27c8ae35490da77fcf87ad9b187dc6.schema.json",
-        "updateTime": 1736866168987
+        "updateTime": 1759140472539
       },
       "https://json.schemastore.org/jsconfig.json": {
         "etag": "\"03067ed5e3fdb1:0\"",
@@ -92,6 +92,16 @@
         "etag": "\"0a624b1156da1:0\"",
         "fileName": "2be3b0ba5d7afaced8cb1c4b0ae3acaa.schema.json",
         "updateTime": 1739797213051
+      },
+      "https://json.schemastore.org/eslintrc": {
+        "etag": "W/\"68f7f062-d796\"",
+        "fileName": "aedaa4c15a68075eb47fd04287b8d447.schema.json",
+        "updateTime": 1761116836138
+      },
+      "https://json.schemastore.org/nodemon.json": {
+        "etag": "W/\"689a697f-13f9\"",
+        "fileName": "bc390135086d44ba1bca60b6c9a80151.schema.json",
+        "updateTime": 1755001735925
       }
     }
   }

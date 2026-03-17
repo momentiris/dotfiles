@@ -2,6 +2,16 @@ execute "source ~/dev/dotfiles/nvim/plugins.vim"
 execute "source ~/dev/dotfiles/nvim/keybindings.vim"
 execute "source ~/dev/dotfiles/nvim/general.vim"
 
+lua require("oil").setup()
+
+" augroup ocaml_mlx
+" autocmd!
+" autocmd BufRead,BufNewFile *.mlx set filetype=ocaml
+" augroup END
+
+lua require("ocaml_mlx")
+lua require("conform").setup({ formatters_by_ft = { ocaml_mlx = { "ocamlformat_mlx" } }})
+  
 nnoremap <SPACE> <Nop>
 
 " Security

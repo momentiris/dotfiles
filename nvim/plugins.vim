@@ -30,6 +30,12 @@ call plug#begin('~/.vim/plugged')
   Plug 'nvim-lua/plenary.nvim'
   Plug 'CopilotC-Nvim/CopilotChat.nvim', { 'branch': 'main' }
   Plug 'prisma/vim-prisma'
+  Plug 'stevearc/oil.nvim'
+
+  Plug 'neovim/nvim-lspconfig'
+  Plug 'nvim-treesitter/nvim-treesitter'
+  Plug 'ocaml-mlx/ocaml_mlx.nvim'
+  Plug 'stevearc/conform.nvim'
 
   call plug#end()
 

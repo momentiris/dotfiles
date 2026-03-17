@@ -14,31 +14,11 @@ antigen theme robbyrussell
 #apply
 antigen apply
 
+# Show full user-relative dir path in prompt 
 export PROMPT=${PROMPT//\%c/\%~}
 
 #FNM
-eval "$(fnm env)"
-
-function chpwd {
-  set_fnm_version
-}
-
-function set_fnm_version {
-  CWD=$(pwd)
-  NVM_FILE="$CWD/.nvmrc"
-
-  if [ -e "$NVM_FILE" ]; then
-    NODE_VERSION=$(cat $NVM_FILE)
-    eval "fnm use $NODE_VERSION"
-    EXIT_CODE=$?
-
-    if [ $EXIT_CODE -eq 3 ]; then
-      eval "fnm install $NODE_VERSION"
-    fi
-  fi
-}
-
-set_fnm_version
+eval "$(fnm env --use-on-cd --version-file-strategy=recursive)"
 
 # Rupa Z
 
@@ -46,7 +26,6 @@ if command -v brew >/dev/null 2>&1; then
 	# Load rupa's z if installed
 	[ -f $(brew --prefix)/etc/profile.d/z.sh ] && source $(brew --prefix)/etc/profile.d/z.sh
 fi
-
 
 source $HOME/.aliases
 
@@ -59,15 +38,8 @@ export ANDROID_HOME=$HOME/Library/Android/sdk
 export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 
-# fnm
-# export PATH="/Users/andreaslundqvist/Library/Application Support/fnm:$PATH"
-# eval "`fnm env`"
-
 export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
 export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
-
-# opam configuration
-[[ ! -r /Users/andreaslundqvist/.opam/opam-init/init.zsh ]] || source /Users/andreaslundqvist/.opam/opam-init/init.zsh  > /dev/null 2> /dev/null
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/Users/andlundq/Downloads/google-cloud-sdk 2/path.zsh.inc' ]; then . '/Users/andlundq/Downloads/google-cloud-sdk 2/path.zsh.inc'; fi
@@ -82,5 +54,31 @@ if [ -f '/Users/andlundq/Downloads/google-cloud-sdk 2/completion.zsh.inc' ]; the
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init --path)"
+eval "$(pyenv init -)"
+
 # dune
-source $HOME/.dune/env/env.zsh
+source $HOME/.local/share/dune/env/env.zsh
+
+
+# BEGIN opam configuration
+# This is useful if you're using opam as it adds:
+#   - the correct directories to the PATH
+#   - auto-completion for the opam binary
+# This section can be safely removed at any time if needed.
+[[ ! -r '/Users/andlundq/.opam/opam-init/init.zsh' ]] || source '/Users/andlundq/.opam/opam-init/init.zsh' > /dev/null 2> /dev/null
+# END opam configuration
+
+# pnpm
+export PNPM_HOME="/Users/andlundq/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
+export DYLD_FALLBACK_LIBRARY_PATH=/opt/homebrew/lib
+
+export JAVA_HOME="$(brew --prefix openjdk@21)/libexec/openjdk.jdk/Contents/Home"
+export PATH="$JAVA_HOME/bin:$PATH"

@@ -20,3 +20,7 @@ alias dcd='docker-compose down'
 alias dcod='docker-compose rm -s -v'
 
 alias xpt='ssh -N -L 11434:172.31.20.90:1433 iteam@217.78.24.188'
+alias xptprod='ssh -N -L 11434:172.31.20.57:1433 iteam@217.78.24.188'
+alias dnr='dotnet build && xattr -dr com.apple.quarantine ./bin && dotnet run'
+alias tailscale="/Applications/Tailscale.app/Contents/MacOS/Tailscale"
+alias gpf='git push --force-with-lease'

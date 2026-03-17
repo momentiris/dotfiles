@@ -26,7 +26,8 @@
     "typescript",
     "typescriptreact",
     "vue",
-    "elixir"
+    "elixir",
+    "ocaml"
   ],
   "diagnostic.warningSign": "~",
   "diagnostic.errorSign": "~",
@@ -41,9 +42,10 @@
       "rootPatterns": ["bsconfig.json"]
     },
     "ocaml-lsp": {
-      "command": "opam",
-      "args": ["config", "exec", "--", "ocamllsp"],
-      "filetypes": ["ocaml", "reason"]
+      "command": "ocamllsp",
+      "args": [],
+      "filetypes": ["ocaml", "reason"],
+      "rootPatterns": ["*.opam", "dune-project", ".git"]
     },
     "csharp-ls": {
       "command": "csharp-ls",
